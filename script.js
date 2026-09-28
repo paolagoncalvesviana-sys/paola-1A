@@ -16,8 +16,9 @@ const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
 btnTemaEscuro.addEventListener("click", mudaTema);
 function mudaTema(){
         conts corpoPagina - document.body;
-        if(corpoPagina.classList.contains("tema-escuro");
+        if(corpoPagina.classList.contains("tema-escuro")) {
                 corpoPagina.classlist.remove ("tema-escura");
 } else {
-                corpoPagina.classList.add
-
+                corpoPagina.classList.add("tema-escuro");
+    }
+}
